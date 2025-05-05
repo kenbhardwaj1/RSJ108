@@ -1,62 +1,51 @@
 body {
-  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  font-family: Arial, sans-serif;
   background-color: #E6FAF3;
   color: #003F2D;
-  margin: 0;
-  padding: 0;
-  line-height: 1.6;
 }
 
-header {
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
   background-color: #7FE0C8;
   padding: 20px;
-  text-align: center;
 }
 
 .logo {
   width: 120px;
   height: auto;
-  background-color: transparent;
+}
+
+.content {
+  padding: 20px;
 }
 
 h1, h2 {
   letter-spacing: 1px;
-  margin-top: 10px;
-  color: #003F2D;
 }
 
-.intro,
-.materials,
-.instructions,
-.media {
-  max-width: 800px;
-  margin: 30px auto;
-  padding: 0 20px;
+ul, ol {
+  margin-left: 20px;
 }
 
-ul {
-  list-style-type: square;
-  padding-left: 20px;
-}
-
-ol {
-  padding-left: 20px;
-}
-
-iframe,
-.flickr-img {
+iframe, .flickr-img {
   display: block;
+  margin: 20px auto;
   max-width: 100%;
   height: auto;
-  margin-top: 20px;
 }
 
-footer {
-  background-color: #003F2D;
-  color: #ffffff;
+.footer {
   text-align: center;
-  padding: 15px;
-  margin-top: 40px;
+  background-color: #003F2D;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
 }
 
 a {
@@ -65,6 +54,6 @@ a {
 }
 
 a:hover {
-  color: #00524E;
   text-decoration: underline;
+  color: #00524E;
 }
