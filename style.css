@@ -50,19 +50,32 @@ p {
 .materials {
   background-color: #9AA095;
   padding: 20px;
-  margin-top: 30px;
+  margin: 30px auto;
   color: white;
+  width: 600px;
+  font-family: 'Courier New', monospace;
+  border: 1px solid #333;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
 }
 
 .materials h3 {
-  font-family: 'Courier New', monospace;
   font-size: 1.4em;
-  margin-top: 0;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 1px dashed #ccc;
+  padding-bottom: 5px;
 }
 
 .materials ul {
-  list-style-type: square;
-  padding-left: 20px;
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.materials ul li {
+  padding: 5px 0;
+  border-bottom: 1px dotted #ccc;
 }
 
 .instructions ol {
