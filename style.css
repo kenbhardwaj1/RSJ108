@@ -2,56 +2,69 @@ body {
   font-family: 'Segoe UI', sans-serif;
   background-color: #E6FAF3;
   color: #003F2D;
-  line-height: 1.6;
   margin: 0;
   padding: 0;
+  line-height: 1.6;
 }
 
 header {
   background-color: #7FE0C8;
+  padding: 20px;
   text-align: center;
-  padding: 20px;
 }
 
-#logo {
-  max-height: 80px;
-  background: transparent;
+.logo {
+  width: 120px;
+  height: auto;
+  background-color: transparent;
 }
 
-h1, h2, h3 {
+h1, h2 {
   letter-spacing: 1px;
+  margin-top: 10px;
+  color: #003F2D;
 }
 
-main {
-  padding: 20px;
+.intro,
+.materials,
+.instructions,
+.media {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 0 20px;
 }
 
-.materials ul {
+ul {
   list-style-type: square;
   padding-left: 20px;
 }
 
-.steps ol {
-  list-style-type: decimal;
+ol {
   padding-left: 20px;
 }
 
-.media iframe, .media img {
+iframe,
+.flickr-img {
+  display: block;
   max-width: 100%;
-  margin-top: 10px;
+  height: auto;
+  margin-top: 20px;
 }
 
 footer {
   background-color: #003F2D;
-  color: white;
+  color: #ffffff;
   text-align: center;
-  padding: 10px;
+  padding: 15px;
+  margin-top: 40px;
 }
 
 a {
   color: #028272;
+  text-decoration: none;
 }
 
 a:hover {
   color: #00524E;
+  text-decoration: underline;
 }
