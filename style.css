@@ -1,59 +1,95 @@
 body {
+  font-family: 'Georgia', serif;
   margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #E6FAF3;
-  color: #003F2D;
+  background-color: #ffffff;
+  color: #333333;
 }
 
-.wrapper {
-  width: 80%;
-  margin: 0 auto;
-}
-
-.header {
+.banner {
+  background-color: #dcdcdc;
+  padding: 30px;
   text-align: center;
-  background-color: #7FE0C8;
-  padding: 20px;
+  position: relative;
 }
 
-.logo {
-  width: 120px;
+.banner h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.banner p {
+  font-size: 1em;
+  margin-top: 5px;
+  font-style: italic;
+}
+
+.monogram {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  width: 80px;
   height: auto;
 }
 
-.content {
+.main {
+  width: 70%;
+  margin: 30px auto;
+}
+
+h2 {
+  font-size: 1.75em;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+.materials {
+  background-color: #9AA095;
   padding: 20px;
+  margin-top: 30px;
+  color: white;
 }
 
-h1, h2 {
-  letter-spacing: 1px;
+.materials h3 {
+  font-family: 'Courier New', monospace;
+  font-size: 1.4em;
+  margin-top: 0;
 }
 
-ul, ol {
-  margin-left: 20px;
+.materials ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+.instructions ol {
+  padding-left: 20px;
+  margin-top: 20px;
 }
 
 iframe, .flickr-img {
   display: block;
-  margin: 20px auto;
   max-width: 100%;
-  height: auto;
+  margin: 20px auto;
+  border: 1px solid #ccc;
 }
 
-.footer {
-  text-align: center;
-  background-color: #003F2D;
+.credits {
+  background-color: #333;
   color: white;
   padding: 10px;
-  margin-top: 20px;
+  text-align: center;
+  margin-top: 40px;
 }
 
-a {
-  color: #028272;
+.credits a {
+  color: #7FE0C8;
   text-decoration: none;
 }
 
-a:hover {
+.credits a:hover {
   text-decoration: underline;
-  color: #00524E;
 }
